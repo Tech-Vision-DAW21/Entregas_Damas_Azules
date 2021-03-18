@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
 
     <title>Damas Azules</title>
   </head>
@@ -38,12 +39,10 @@
                   <li><a class="dropdown-item" href="#">Urología</a></li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
+              
             </ul>
           
-            <button class="btn btn-outline-success" type="submit">Log Out</button>
+            <button type="button" class="btn btn-dark">Log out</button>
           </div>
         </div>
       </nav>
@@ -59,7 +58,7 @@
                     <div class="col">
                     <label for="inputState" class="form-label">Pregunta 1 NSE : Nivel de Escolaridad</label>
                     <select id="inputState" class="form-select">
-                        <option selected>Escoge...</option>
+                        <option selected>Elegir respuesta</option>
                         <option>Licenciatura,Maestría y Posgrado</option>
                         <option>Preparatoria y Técnicos</option>
                         <option>Primaria y Secundaria</option>
@@ -76,7 +75,7 @@
                 <div class="col ">
                 <label for="inputState" class="form-label">Pregunta 2 NSE : Vivienda</label>
                 <select id="inputState" class="form-select">
-                    <option selected>Escoge...</option>
+                    <option selected>Elegir respuesta</option>
                     <option>Casa Propia</option>
                     <option>Rentando</option>
                     <option>Prestado</option>
@@ -92,7 +91,7 @@
             <div class="col">
             <label for="inputState" class="form-label">Pregunta 3 NSE : Ingresos</label>
             <select id="inputState" class="form-select">
-                <option selected>Escoge...</option>
+                <option selected>Elegir respuesta</option>
                 <option>$85,000.00 o más</option>
                 <option>$11,600.00 - $84,999.00</option>
                 <option>$2,700.00 - $11,599.00</option>
@@ -108,7 +107,7 @@
             <div class="col">
             <label for="inputState" class="form-label">Pregunta 4 NSE : Por Definir</label>
             <select id="inputState" class="form-select">
-                <option selected>Escoge...</option>
+                <option selected>Elegir respuesta</option>
              
 
             </select>
@@ -120,7 +119,7 @@
             <div class="col">
             <label for="inputState" class="form-label">Pregunta 5 NSE : Por Definir</label>
             <select id="inputState" class="form-select">
-                <option selected>Escoge...</option>
+                <option selected>Elegir respuesta</option>
                 
 
             </select>
@@ -132,7 +131,7 @@
             <div class="col">
             <label for="inputState" class="form-label">Pregunta 6 NSE : Por Definir</label>
             <select id="inputState" class="form-select">
-                <option selected>Escoge...</option>
+                <option selected>Elegir respuesta</option>
                 
             </select>
             </div>
@@ -141,20 +140,18 @@
     </div>
          <!-- Botón siguiente o atras -->
         
-        
-         <div class="row offset-2">
-                        
-            <div class="col-5">
-                    <button type="submit" class="btn btn-outline-success">Atras</button>
+         <div class="container custom">
+           <div class="row">
+            <div class="col-2"></div>
+            <div class="col-4">
+              <button type="button" class="btn btn-danger">Atras</button>
             </div>
-
-            <div class="col-5 ">
-                <button type="submit" class="btn btn-outline-success">Siguiente</button>
+            <div class="col-4"></div>
+            <div class="col-2 ">
+              <button type="button" class="btn btn-success">Siguiente</button>
             </div>      
-
+           </div>
          </div>
-        
-        
         
         
 
