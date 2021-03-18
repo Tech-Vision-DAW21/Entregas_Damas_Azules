@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="css/index.css">
+
     <title>Damas Azules</title>
   </head>
   <body>
@@ -21,7 +23,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="cuestionario.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>   
               <!-- Pacientes -->
 
@@ -30,7 +32,7 @@
                   Pacientes
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Agregar Paciente</a></li>
+                  <li><a class="dropdown-item" href="../formulario/cuestionario.html">Agregar Paciente</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Editar Perfil</a></li>
                 </ul>
@@ -54,7 +56,7 @@
               </li>
             </ul>
 
-            <button class="btn btn-outline-success" type="submit">Log Out</button>
+            <button class="btn btn-outline-success" type="submit"  onclick="cerrar()">Log Out</button>
             
           </div>
         </div>
