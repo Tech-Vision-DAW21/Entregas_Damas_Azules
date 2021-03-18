@@ -31,7 +31,7 @@
               </li>
             </ul>
           
-            <button class="btn btn-outline-success" type="submit">Log Out</button>
+            <button class="btn btn-outline-success" type="submit" onclick="cerrar()">Log Out</button>
           </div>
         </div>
       </nav>
@@ -116,7 +116,7 @@
             </div>
         </div>
          <!-- Pregunta 6 -->
-         <div class="row g-5 offset-2">
+         <div class="row g-7 offset-2">
                
             <div class="col">
             <label for="inputState" class="form-label">Pregunta 6 NSE : Por Definir</label>
@@ -126,21 +126,23 @@
             </select>
             </div>
         </div>
-
-    </div>
-         <!-- Botón siguiente o atras -->
-        
-        
          
-        
-        
-        
-        
-
+         
           </form>
     </div>
 
+    <!-- Botón siguiente o atras -->
+    <div class="row g-5 offset-2">
 
+      <div class="col-1">
+        <button class="btn btn-outline-success" type="submit" onclick="regresar()">Atras</button> 
+      </div> 
+
+      <div class="col-1 offset-7">
+        <button class="btn btn-outline-success" type="submit" onclick="siguiente()">Siguiente</button> 
+        </div>
+
+     </div>   
 
 
 

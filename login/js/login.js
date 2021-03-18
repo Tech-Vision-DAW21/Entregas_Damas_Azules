@@ -8,7 +8,7 @@ function ingresar(){
 
     if ( document_user == user &&  document_password == password){
 
-       location.href=("");
+       location.href=("../recepcionista/index.html");
         return false;
     }
     else{
