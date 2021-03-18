@@ -10,6 +10,7 @@
    <!--  jQuery -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
+<<<<<<< HEAD
     <!-- Isolated Version of Bootstrap, not needed if your site already uses Bootstrap -->
     <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
 
@@ -17,11 +18,16 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
     <script src="./js/cuestionario.js"></script>
+=======
+    <link rel="stylesheet" href="css/cuestionario.css">
+
+>>>>>>> e63b1219dec0db6267c8e2d6f146aa6486b102d0
     <title>Damas Azules</title>
   </head>
   <body>
     
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<<<<<<< HEAD
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Damas Azules</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,13 +57,33 @@
           </ul>
         
           <button type="button" class="btn btn-dark">Log out</button>
+=======
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Damas Azules</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../recepcionista/index.html">Home</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Nuevo Paciente</a>
+              </li>
+            </ul>
+          
+            <button class="btn btn-outline-success" type="submit" onclick="cerrar()">Log Out</button>
+          </div>
+>>>>>>> e63b1219dec0db6267c8e2d6f146aa6486b102d0
         </div>
       </div>
     </nav>
 
 
     <!-- Cuestionario básico de la página -->
-      <h1 class="col offset-1 "> Registro Nuevo Usuario</h1>
+      <h1 class="col-10 offset-1 "> Registro Información General</h1>
     <div class="container" >
         <form class="row ">
             <!-- Nombre Completo -->
@@ -149,13 +175,24 @@
 
              </div>
                 
+<<<<<<< HEAD
         
 
 
             <div class="col-12 g-5 offset-7">
               <button type="button" class="btn btn-success">Siguiente</button>
             </div>
+=======
+      
+>>>>>>> e63b1219dec0db6267c8e2d6f146aa6486b102d0
           </form>
+         
+         <div class="row">
+          <div class="col-12 g-5 offset-7">
+            <button class="btn btn-outline-success" type="submit" onclick="siguiente()">Siguiente</button> 
+          </div>
+         </div>
+         
     </div>
 
 
