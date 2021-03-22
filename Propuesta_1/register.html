@@ -30,55 +30,273 @@
             <div class="card-body p-0">
                 <!-- Nested Row within Card Body -->
                 <div class="row">
-                    <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
-                    <div class="col-lg-7">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
                         <div class="p-5">
                             <div class="text-center">
-                                <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
+                                <h1 class="h4 text-gray-900 mb-4">Registra Nuevo Paciente</h1>
                             </div>
                             <form class="user">
+                                <label for="">Datos Personales</label>
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
                                         <input type="text" class="form-control form-control-user" id="exampleFirstName"
-                                            placeholder="First Name">
+                                            placeholder="Primer Nombre">
                                     </div>
+                                    
+
                                     <div class="col-sm-6">
                                         <input type="text" class="form-control form-control-user" id="exampleLastName"
-                                            placeholder="Last Name">
+                                            placeholder="Segundo Nombre">
                                     </div>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control form-control-user" id="exampleInputEmail"
-                                        placeholder="Email Address">
                                 </div>
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <input type="password" class="form-control form-control-user"
-                                            id="exampleInputPassword" placeholder="Password">
+                                        <input type="text" class="form-control form-control-user" id="exampleFirstName"
+                                            placeholder="Apellido Paterno">
                                     </div>
+                                    
+
                                     <div class="col-sm-6">
-                                        <input type="password" class="form-control form-control-user"
-                                            id="exampleRepeatPassword" placeholder="Repeat Password">
+                                        <input type="text" class="form-control form-control-user" id="exampleLastName"
+                                            placeholder="Apellido Materno">
+                                    </div>
+
+                                </div>
+
+
+                                <div class="form-group row">
+                                    <div class="col-sm-6">
+                                    <input type="email" class="form-control form-control-user" id="exampleInputEmail"
+                                        placeholder="Correo electrónico">
+                                    </div>   
+                                    <div class="col-sm-6">
+                                            <input type="text" class="form-control form-control-user" id="exampleLastName"
+                                                placeholder="CURP">
                                     </div>
                                 </div>
-                                <a href="login.html" class="btn btn-primary btn-user btn-block">
-                                    Register Account
-                                </a>
+
+                                <div class="form-group row">
+                                    <div class="col-sm-3 mb-3 mb-sm-0">
+                                        <select class="form-select form-control form-control-user" aria-label="Default select example" >
+                                            <option selected>Genero</option>
+                                            <option value="1">Masculino</option>
+                                            <option value="2">Femenino</option>
+                                            
+                                          </select>
+                                    </div>
+                                    <div class="col-sm-3">
+
+                                    </div>
+                                    
+
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control form-control-user" id="exampleLastName"
+                                            placeholder="Fecha Nacimiento">
+                                    </div>
+                                </div>
+
+
+
                                 <hr>
-                                <a href="index.html" class="btn btn-google btn-user btn-block">
-                                    <i class="fab fa-google fa-fw"></i> Register with Google
+                                <label for="">Dirección</label>
+                                <div class="form-group row">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <input type="text" class="form-control form-control-user" id="exampleFirstName"
+                                            placeholder="Calle">
+                                    </div>
+                                    
+
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control form-control-user" id="exampleLastName"
+                                            placeholder="Ciudad">
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <input type="text" class="form-control form-control-user" id="exampleLastName"
+                                            placeholder="Estado">
+                                    </div>
+
+
+                                    <div class="col-sm-2">
+                                        <input type="text" class="form-control form-control-user" id="exampleLastName"
+                                            placeholder="C.P">
+                                    </div>
+
+
+                                </div>
+
+                                <hr>
+                                <label for="" > Encuesta NSE</label>
+                                <div class="form-group row">
+                                    
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <label for="">Pregunta NSE 1: Ingreso Mensual </label>
+                                        <select class="form-select form-control form-control-user" aria-label="Default select example" >
+                                            <option selected>Seleccionar...</option>
+                                            <option value="1">Masculino</option>
+                                            <option value="2">Femenino</option>
+                                            
+                                          </select>
+                                    </div>
+
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <label for="">Pregunta NSE 2: Vivienda </label>
+                                        <select class="form-select form-control form-control-user" aria-label="Default select example" >
+                                            <option selected>Seleccionar...</option>
+                                            <option value="1">Masculino</option>
+                                            <option value="2">Femenino</option>
+                                            
+                                          </select>
+                                    </div>
+                                   
+                                </div>
+                                <div class="form-group row">
+                                    
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <label for="">Pregunta NSE 3:  </label>
+                                        <select class="form-select form-control form-control-user" aria-label="Default select example" >
+                                            <option selected>Seleccionar...</option>
+                                            <option value="1">Masculino</option>
+                                            <option value="2">Femenino</option>
+                                            
+                                          </select>
+                                    </div>
+
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <label for="">Pregunta NSE :4 </label>
+                                        <select class="form-select form-control form-control-user" aria-label="Default select example" >
+                                            <option selected>Seleccionar...</option>
+                                            <option value="1">Masculino</option>
+                                            <option value="2">Femenino</option>
+                                            
+                                          </select>
+                                    </div>
+                                   
+                                </div>
+                                <div class="form-group row">
+                                    
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <label for="">Pregunta NSE :5 </label>
+                                        <select class="form-select form-control form-control-user" aria-label="Default select example" >
+                                            <option selected>Seleccionar...</option>
+                                            <option value="1">Masculino</option>
+                                            <option value="2">Femenino</option>
+                                            
+                                          </select>
+                                    </div>
+
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <label for="">Pregunta NSE :6</label>
+                                        <select class="form-select form-control form-control-user" aria-label="Default select example" >
+                                            <option selected>Seleccionar...</option>
+                                            <option value="1">Masculino</option>
+                                            <option value="2">Femenino</option>
+                                            
+                                          </select>
+                                    </div>
+                                   
+                                </div>
+                                
+                                <hr>
+                                <label for="">Servicios</label>
+
+                                <div class="form-group row">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                          Ginecología
+                                        </label>
+                                    </div>
+                                    </div>
+                                    
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                          Mastografía
+                                        </label>
+                                   </div>
+                                   </div>
+                                   <div class="col-sm-4 mb-3 mb-sm-0">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                          Papanicolao
+                                        </label>
+                                   </div>
+                                   </div>
+                                    
+                                    
+                                   
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                          Colposcopia
+                                        </label>
+                                    </div>
+                                    </div>
+                                    
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                          Oncología
+                                        </label>
+                                   </div>
+                                   </div>
+                                   <div class="col-sm-4 mb-3 mb-sm-0">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                          Biopsia Cervicales
+                                        </label>
+                                   </div>   
+                                   </div>
+                                    
+                                    
+                                   
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                          Biopsia Endometrio
+                                        </label>
+                                    </div>
+                                    </div>
+                                    
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                         TT de Células Premalignas
+                                        </label>
+                                   </div>
+
+                                   </div>
+                        
+                                    
+                                    
+                                   
+                                </div>
+
+                               
+                              
+                                <a href="login.html" class="btn btn-primary btn-user btn-block">
+                                    Registrar Nuevo Paciente
                                 </a>
-                                <a href="index.html" class="btn btn-facebook btn-user btn-block">
-                                    <i class="fab fa-facebook-f fa-fw"></i> Register with Facebook
-                                </a>
+                               
+                        
                             </form>
                             <hr>
-                            <div class="text-center">
-                                <a class="small" href="forgot-password.html">Forgot Password?</a>
-                            </div>
-                            <div class="text-center">
-                                <a class="small" href="login.html">Already have an account? Login!</a>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>
